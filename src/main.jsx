@@ -10,7 +10,7 @@ const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
 
 root.render(
-  <BrowserRouter basename="/videos"> 
+  <BrowserRouter basename="/videos4"> 
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/hory2" element={<Hory2/>} />
