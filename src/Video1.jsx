@@ -1,5 +1,6 @@
+
 export default function Video1() {
-  const videoUrl = process.env.REACT_APP_VIDEO_HORY2_URL;
+  const videoUrl = import.meta.env.VITE_REACT_APP_VIDEO_HORY2_URL; 
 
   return (
     <div className="w-full h-full flex items-center justify-center">
@@ -13,3 +14,4 @@ export default function Video1() {
     </div>
   );
 }
+
