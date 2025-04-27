@@ -1,11 +1,11 @@
 import { createRoot } from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 
-import './index.css'
-import Home from './Home.jsx'
-import Video1 from "./Video1.jsx"
+import './index.css';
+import Home from './Home.jsx';
+import Video1 from "./Video1.jsx";
 
-const path_video1 = process.env.PATH_VIDEO1;
+const path_video1 = import.meta.env.VITE_PATH_VIDEO1; // Opraveno na import.meta.env
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
