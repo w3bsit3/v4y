@@ -1,4 +1,4 @@
-export default function Hory2() {
+export default function Video1() {
   const videoUrl = process.env.REACT_APP_VIDEO_HORY2_URL;
 
   return (
