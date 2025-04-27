@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 export default function Home() {
 
 const path_video1 = process.env.PATH_VIDEO1;
-
+//add
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-4xl mb-20">Zatím tu nic není :)</h1>
