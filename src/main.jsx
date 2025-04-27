@@ -5,7 +5,8 @@ import './index.css';
 import Home from './Home.jsx';
 import Video1 from "./Video1.jsx";
 
-const path_video1 = import.meta.env.VITE_PATH_VIDEO1; // Opraveno na import.meta.env
+
+const path_video1 = import.meta.env.VITE_PATH_VIDEO1;
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
